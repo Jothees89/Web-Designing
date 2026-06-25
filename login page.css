@@ -1,0 +1,44 @@
+body{
+    margin-top: 5%;
+}
+.log{
+    background: radial-gradient(rgb(228, 244, 248),rgb(240, 77, 18));
+    margin: auto;
+    border-radius: 50px;
+    width: 400px;
+    height: 600px;
+    box-shadow: 3px 3px 5px rgb(27, 25, 20);
+}
+.img{
+    text-align: center;
+    padding-top: 20px;
+}
+.head{
+    text-align: center;
+    color: rgb(8, 92, 144);
+    font-size: 25px;
+}
+.log label{
+    margin-left: 160px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.log input{
+    margin: 5px;
+    margin-left: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
+.log button{
+    margin-left: 160px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(166, 223, 250);
+    padding-inline: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+}
