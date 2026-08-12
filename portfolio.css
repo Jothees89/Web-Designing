@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(40, 46, 55);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 25, 25);
+}
+
+.head {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: "Story Script", sans-serif;
+    text-decoration: none;
+    cursor: default;
+    text-shadow: 1px 1px 4px;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: rgb(64, 230, 216);
+}
+
+.home {
+    display:flex;
+    color: aliceblue;
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 200px;
+    font-size: 25px;
+}
+
+.home h1 {
+    color: rgb(255, 255, 255);
+}
+
+.home h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.home h2 span {
+    color: aqua;
+}
+
+.home p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.social-media {
+    padding-top: 25px;
+    margin-top: 10px;
+    
+} 
+
+.social-media a {
+    color: aliceblue;
+    padding: 8px;
+    border: 2px solid rgb(82, 82, 159);
+    box-shadow: 0px 0px 5px rgb(5, 251, 214);
+    border-radius: 20px;
+    align-items: center;
+    margin: 5px;
+}
+
+.social-media a:hover{
+    color: aqua;
+    padding: 10px;
+}
+
+.cv {
+    background-color: rgb(66, 66, 110);
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid rgb(82, 82, 159);
+   
+ }
+
+ .cv a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 18px;  
+ }
+
+ .cv:hover {
+    color: rgb(0, 0, 0);
+     box-shadow: 1px 1px 10px  rgb(5, 251, 214);
+ }
+
+.img img {
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    margin-left: 200px;
+    border: 1px solid rgb(26, 26, 28);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.content {
+    padding-top: 150px;
+    display: flex;
+}
+
+.image img {
+    margin-left: 200px;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px 50px 10px 50px;
+    border: 1px solid rgb(26, 26, 28);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.abt {
+    margin-left: 120px;
+    padding-top: 150px;
+}
+
+.abt h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.abt span {
+    color: aqua;
+}
+
+.abt h2 {
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.abt p {
+    padding-top: 20px;
+    font-size: 25px;
+    color: azure;
+    font-weight: normal;
+}
+
+.skills {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+}
+
+.skills h1 span {
+    color: aqua;
+}
+
+.skill-container {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+} 
+
+.skill-card {
+    background:#4a515b;
+    border-radius: 18px;
+    font-size: 23px;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 20px;
+}
+
+.icon {
+    color: aqua;
+    margin-left: 150px;
+    font-size: 60px;
+}
+
+.skill-card h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+.skill-card p {
+    color: azure;
+    font-weight: 100;
+}
+
+.btn {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 300px;
+    line-height: 35px;
+} 
+.btn:hover{
+    color:rgba(180, 180, 245, 0.668) ;
+}
+
+.head4 {
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+}
+.pics{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content:space-evenly;
+}
+.pics img {
+    margin-top:80px ;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+}
+.pics img:hover{
+    box-shadow: 0px 0px 20px aliceblue;
+}
+
+.head5 {
+    padding-top: 150px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.head5 span {
+    color: aqua;
+}
+
+.contact {
+    margin-left: 580px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box input {
+    width: 250px;
+    height: 30px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black;
+    background-color: rgb(40, 46, 55);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 10px;
+}
+
+.box input:hover ,textarea:hover{
+    box-shadow: 0px 0px 8px aqua;
+}
+
+textarea {
+    width: 503px;
+    height: 300px;
+    margin: 20px;
+    padding: 8px;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: rgb(40, 46, 55);
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px black
+}
+
+.contact button {
+    margin-top: 10px;
+    margin-left: 190px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0px solid black;
+
+}
+.contact button a{
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.contact button:hover{
+    box-shadow: 0px 0px 10px aqua;
+}
